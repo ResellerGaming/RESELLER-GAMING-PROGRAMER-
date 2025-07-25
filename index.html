@@ -257,10 +257,10 @@
         musicBtn.addEventListener('click', function() {
             if (isPlaying) {
                 backgroundMusic.pause();
-                musicBtn.innerHTML = '<span class="relative z-10">PLAY TRACK</span><span class="absolute inset-0 bg-white opacity-0 hover:opacity-20 transition-opacity"></span>';
+                musicBtn.innerHTML = '<span class="relative z-10">PLAY MUSIC</span><span class="absolute inset-0 bg-white opacity-0 hover:opacity-20 transition-opacity"></span>';
             } else {
                 backgroundMusic.play();
-                musicBtn.innerHTML = '<span class="relative z-10">PAUSE TRACK</span><span class="absolute inset-0 bg-white opacity-0 hover:opacity-20 transition-opacity"></span>';
+                musicBtn.innerHTML = '<span class="relative z-10">PAUSE MUSIC</span><span class="absolute inset-0 bg-white opacity-0 hover:opacity-20 transition-opacity"></span>';
             }
             isPlaying = !isPlaying;
         });
